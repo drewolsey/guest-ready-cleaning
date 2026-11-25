@@ -2,3 +2,4 @@
 .gallery{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(1rem,3vw,2rem);padding-top:clamp(2.75rem,6vw,5.25rem)}.gallery img{aspect-ratio:720/590}@media(max-width:36rem){.gallery{grid-template-columns:1fr}}
 
 .benefits{border-top:1px solid var(--line);padding-block:clamp(2rem,4vw,3.5rem)}.benefits h2{font-size:clamp(1.65rem,3vw,2.45rem)}.benefits p{max-width:42ch;margin-top:.6rem}
+@media(min-width:46.01rem){.benefits{grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(1.5rem,3vw,3rem)}}
