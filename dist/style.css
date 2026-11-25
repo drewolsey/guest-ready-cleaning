@@ -5,3 +5,5 @@
 @media(min-width:46.01rem){.benefits{grid-template-columns:repeat(3,minmax(0,1fr));gap:clamp(1.5rem,3vw,3rem)}}
 
 .faq{max-width:68rem}.faq-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(14rem,21rem);gap:clamp(1.5rem,4vw,3rem);align-items:start;margin-top:2rem}.faq-grid .questions{grid-column:1;grid-row:1;margin-top:0}.faq-photo{grid-column:2;grid-row:1}.faq-photo img{aspect-ratio:8/9}@media(max-width:46rem){.faq-grid{grid-template-columns:1fr}.faq-grid .questions,.faq-photo{grid-column:auto;grid-row:auto}.faq-photo img{aspect-ratio:16/8}}
+
+.brand img{display:block;width:clamp(12rem,29vw,18rem);max-width:100%;height:auto;mix-blend-mode:multiply}.foot .brand img{width:11rem}
